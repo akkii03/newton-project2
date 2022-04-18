@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .main-content{
+    display: grid;
+   height: 1000px;
+   grid-template-columns: 300px auto;
+}
+
+.left-section{
+    background-color: #CFCFDC;
+    width: 303px;
+    margin-left: 5px;
+}
+
+.right-section{
+    width: fit-content;
+    background-color: #dcdcdc;
+    margin-left: auto;
+    padding-left: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    align-items: center;
+    height: 234px;
+    border: 5px solid white ;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700px;
+    padding: .02rem;
+    letter-spacing: 0.02px; 
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.underline {
+    height: 12px;
+    background-color: #dcdcdc;
+    width: 240px;
+    padding: -7px;
+    margin-left: 31px;
+    border-radius: 29px;
+}
+
+
+    .title {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: larger;
+    padding-top: 20px;
+}
+.left-content{
+    padding: 1rem;
+}
+.designation{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.mediaicon{
+        height: 63px;
+        width: 54px;
+        cursor: pointer;
+}
+
+
+.icon {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 5px;
+    margin-left: 0px;
+}
+
+.contacticon {
+    height: 51px;
+    width: 34px;
+}
+
+.skill1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 71px;
+    margin-bottom: 18px;
+}
+
+.skill2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 40px;
+}
+
+.skills {
+    margin-top: 37px;
+    margin-left: 16px;
+}
+
+
+.Designation {
+    margin-left: 122px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.progressbar1 {
+    height: 8px;
+    width: 165px;
+    background-color: black;
+    margin-left: 26px;
+    border-radius: 33px;
+}
+
+.progressbar2{
+    height: 8px;
+    width: 130px;
+    margin-left: 26px;
+    border-radius: 33px;
+    background-color: black;
+}
+
+.progressbar3{
+    height: 8px;
+    width: 180px;
+    margin-left: 26px;
+    background-color: black;
+    border-radius: 33px;
+}
+
+.progressbar4{
+    height: 8px;
+    width: 150px;
+    margin-left: 26px;
+    background-color: black;
+    border-radius: 33px;
+}
+
+.progressbar5{
+    height: 8px;
+    width: 218px;
+    margin-left: 26px;
+    background-color: black;
+    border-radius: 33px;
+}
+
+
+h3.skills_heading {
+    margin-left: 107px;
+    padding-top: 29px;
+}
+
+.divprogressbar {
+    padding-left: 15px;
+}
+
+
+
+
+.about_content {
+    /* padding-top: 13px; */
+    margin: 36px;
+}
+
+.education-content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.edu-div{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.edu-2 {
+    padding-right: 50px;
+    padding-top: 35px;
+}
+
+.edu-1 {
+    padding-right: 219px;
+    padding-top: 35px;
+}
+
+.edu_div {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 63px;
+    /* padding-right: 53px; */
+}
+
+.date {
+    padding-top: 22px;
+}
+
+#projects{
+    cursor: pointer;
+}
+h2.right-title {
+    padding-top: 106px;
+}
+
+@media screen and (max-width:200px) {
+    .main-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-section{
+        width: 466px;
+    }
+
+    .underline{
+        margin-left: 110px;
+    }
+    
+}
+
+
+
+
+    </style>
+    <title>project</title>
+</head>
+<body>
+  
+            <div class="main-content">
+
+                <div class="left-section">
+
+                    
+
+                        <div class="profile-details">
+                            <div class="profile-image"> <img src="profile.jpeg" alt="img"> </div>
+        
+                        <div class="name"> AYUSH INDORIA </div>
+                        <div class="Designation"> SDE-1</div>
+    
+                        <div class="underline"> </div>
+    
+                        <div class="description">Full Stack Developer</div>
+                        </div> <!---profile details end-->
+
+
+                        <div class="contact-item">
+
+
+                            <div class="socialmedia">
+                               
+                                <div class="icon">
+                                    <a href="https://www.instagram.com/aakkii02/" target="_blank">
+                                        <img alt="svgImg"  class="mediaicon"   src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAzMCAzMCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSA5Ljk5ODA0NjkgMyBDIDYuMTM5MDQ2OSAzIDMgNi4xNDE5NTMxIDMgMTAuMDAxOTUzIEwgMyAyMC4wMDE5NTMgQyAzIDIzLjg2MDk1MyA2LjE0MTk1MzEgMjcgMTAuMDAxOTUzIDI3IEwgMjAuMDAxOTUzIDI3IEMgMjMuODYwOTUzIDI3IDI3IDIzLjg1ODA0NyAyNyAxOS45OTgwNDcgTCAyNyA5Ljk5ODA0NjkgQyAyNyA2LjEzOTA0NjkgMjMuODU4MDQ3IDMgMTkuOTk4MDQ3IDMgTCA5Ljk5ODA0NjkgMyB6IE0gMjIgNyBDIDIyLjU1MiA3IDIzIDcuNDQ4IDIzIDggQyAyMyA4LjU1MiAyMi41NTIgOSAyMiA5IEMgMjEuNDQ4IDkgMjEgOC41NTIgMjEgOCBDIDIxIDcuNDQ4IDIxLjQ0OCA3IDIyIDcgeiBNIDE1IDkgQyAxOC4zMDkgOSAyMSAxMS42OTEgMjEgMTUgQyAyMSAxOC4zMDkgMTguMzA5IDIxIDE1IDIxIEMgMTEuNjkxIDIxIDkgMTguMzA5IDkgMTUgQyA5IDExLjY5MSAxMS42OTEgOSAxNSA5IHogTSAxNSAxMSBBIDQgNCAwIDAgMCAxMSAxNSBBIDQgNCAwIDAgMCAxNSAxOSBBIDQgNCAwIDAgMCAxOSAxNSBBIDQgNCAwIDAgMCAxNSAxMSB6Ij48L3BhdGg+PC9zdmc+"/>
+                                    </a>
+
+                                    <a href="https://www.linkedin.com/in/akki-indoria-a10728236/" target="_blank">
+                                        <img alt="svgImg" class="mediaicon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIKdmlld0JveD0iMCAwIDMwIDMwIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxwYXRoIGQ9Ik0yNywxNWMwLDYuNjI3LTUuMzczLDEyLTEyLDEyUzMsMjEuNjI3LDMsMTVTOC4zNzMsMywxNSwzUzI3LDguMzczLDI3LDE1eiBNMTAuNDAzLDExLjAyMSBjMC45MzUsMCwxLjQ5Ni0wLjU2MSwxLjQ5Ni0xLjMwOWMwLTAuNzQ4LTAuNTYxLTEuMzA5LTEuNDAzLTEuMzA5QzkuNTYxLDguNDAzLDksOC45NjQsOSw5LjcxMiBDOSwxMC40Niw5LjU2MSwxMS4wMjIsMTAuNDAzLDExLjAyMXogTTksMjBoM3YtOEg5VjIweiBNMTkuNDU5LDEyYy0xLjQxMiwwLTIuMTY1LDAuNDY1LTIuNTQxLDEuMTE2VjEySDE0djhoMi45MTcgYzAsMCwwLTQuMTg2LDAtNC4zNzJjMC0xLjMwMiwwLjk0Mi0xLjQ4OCwxLjIyNC0xLjQ4OHMxLjAzNSwwLjI3OSwxLjAzNSwxLjQ4OFYyMEgyMnYtNC4zNzJDMjIsMTMuMTE2LDIwLjg3MSwxMiwxOS40NTksMTJ6Ij48L3BhdGg+PC9zdmc+"/>
+                                    </a>
+
+                                    <a href="https://github.com/akkii03" target="_blank">
+                                        <img alt="svgImg" class="mediaicon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIKdmlld0JveD0iMCAwIDMwIDMwIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPiAgICA8cGF0aCBkPSJNMTUsM0M4LjM3MywzLDMsOC4zNzMsMywxNWMwLDUuNjIzLDMuODcyLDEwLjMyOCw5LjA5MiwxMS42M0MxMi4wMzYsMjYuNDY4LDEyLDI2LjI4LDEyLDI2LjA0N3YtMi4wNTEgYy0wLjQ4NywwLTEuMzAzLDAtMS41MDgsMGMtMC44MjEsMC0xLjU1MS0wLjM1My0xLjkwNS0xLjAwOWMtMC4zOTMtMC43MjktMC40NjEtMS44NDQtMS40MzUtMi41MjYgYy0wLjI4OS0wLjIyNy0wLjA2OS0wLjQ4NiwwLjI2NC0wLjQ1MWMwLjYxNSwwLjE3NCwxLjEyNSwwLjU5NiwxLjYwNSwxLjIyMmMwLjQ3OCwwLjYyNywwLjcwMywwLjc2OSwxLjU5NiwwLjc2OSBjMC40MzMsMCwxLjA4MS0wLjAyNSwxLjY5MS0wLjEyMWMwLjMyOC0wLjgzMywwLjg5NS0xLjYsMS41ODgtMS45NjJjLTMuOTk2LTAuNDExLTUuOTAzLTIuMzk5LTUuOTAzLTUuMDk4IGMwLTEuMTYyLDAuNDk1LTIuMjg2LDEuMzM2LTMuMjMzQzkuMDUzLDEwLjY0Nyw4LjcwNiw4LjczLDkuNDM1LDhjMS43OTgsMCwyLjg4NSwxLjE2NiwzLjE0NiwxLjQ4MUMxMy40NzcsOS4xNzQsMTQuNDYxLDksMTUuNDk1LDkgYzEuMDM2LDAsMi4wMjQsMC4xNzQsMi45MjIsMC40ODNDMTguNjc1LDkuMTcsMTkuNzYzLDgsMjEuNTY1LDhjMC43MzIsMC43MzEsMC4zODEsMi42NTYsMC4xMDIsMy41OTQgYzAuODM2LDAuOTQ1LDEuMzI4LDIuMDY2LDEuMzI4LDMuMjI2YzAsMi42OTctMS45MDQsNC42ODQtNS44OTQsNS4wOTdDMTguMTk5LDIwLjQ5LDE5LDIyLjEsMTksMjMuMzEzdjIuNzM0IGMwLDAuMTA0LTAuMDIzLDAuMTc5LTAuMDM1LDAuMjY4QzIzLjY0MSwyNC42NzYsMjcsMjAuMjM2LDI3LDE1QzI3LDguMzczLDIxLjYyNywzLDE1LDN6Ij48L3BhdGg+PC9zdmc+"/>
+                                    </a>
+
+
+                                </div>   <!--icon ka end-->
+                            </div> <!---social media ka end-->
+
+
+                            <div class="skills">
+
+                                <div class="skill1">
+                                    <div class="textkadiv">
+                                        <p> 
+                                            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"> akkiindoria72@gmail.com </a>
+                                        </p>
+                                    </div>
+                                    <div class="imgkadiv">
+                                        <img src="mail.jpeg" class="contacticon">
+                                    </div>
+                                </div>
+
+                                <div class="skill1">
+                                    <div class="textkadiv">
+                                        <p> Faridabad Haryana 121102</p>
+                                    </div>
+                                    <div class="imgkadiv">
+                                        <img src="location.jpeg" class="contacticon">
+                                    </div>
+                                </div>
+
+                                <div class="skill2">
+                                    <div class="textkadiv">
+                                        <p> 7988017795 </p>
+                                    </div>
+                                    <div class="imgkadiv">
+                                        <img src="phone.jpeg" class="contacticon">
+                                    </div>
+                                </div>
+
+
+                            </div> <!--skills ka end-->
+                           
+                            <div class="divprogressbar">
+                                <h3 class="skills_heading">Skills</h3>
+                                <p > HTML</p>
+                                <div class="progressbar1">
+
+                                </div>
+
+
+                                <p class="skill_ka_p_tag"> CSS</p>
+                                <div class="progressbar2">
+
+                                </div>
+
+
+
+                                 <p class="skill_ka_p_tag"> JAVASCRIPT</p>
+                                <div class="progressbar3">
+
+                                </div>
+
+
+                                <p class="skill_ka_p_tag"> MONGODB</p>
+                                <div class="progressbar4">
+
+                                </div>
+
+                                <p class="skill_ka_p_tag"> MYSQL</p>
+                                <div class="progressbar5">
+
+                                </div>
+
+                            </div> <!----progress bar ka end-->
+
+                        </div> <!---contact item ka end-->
+
+
+                </div> <!---left section ka end-->
+
+                <!-----------------         ------------->
+
+                <div class="right-section">
+
+
+
+
+                    <div class="right-main-content">
+
+                        <section class="about.sect">
+                            <h2 class="right-title">ABOUT ME</h2>
+                            <p class="about_content">
+                                Able. I am able to handle multiple tasks on a daily basis.
+                                Creative. I use a creative approach to problem solve.
+                                Dependable. I am a dependable person who is great at time management.
+                                Energetic. I am always energetic and eager to learn new skills.
+                                Experience. ...
+                                Flexible. ...
+                                Hardworking. ...
+                                Honest
+                            </p>
+                        </section>
+
+
+                        <h2 class="right-title">EDUCATION & CERTIFICATIONS</h2>
+                        <div class="education-content">
+                           
+
+
+                          <div class="edu_div">
+
+                            <div class="edu-1">
+                                <h3>Bachelor of science</h3>
+                                I done my graduation Bachelor of science from Dr Bhim Rao ambedkar University Agra 
+                                in Agriculture  honours
+                            </div>
+
+                            <div class="edu-2">
+                                <h3 class="date">(2019-2022)</h3>
+                            </div>
+
+                            <!-------------------------next edu-->
+
+                            <div class="edu-1">
+                                <h3>Intermediate</h3>
+                                I done my intermediate schooling from KCM World School palwal 
+                            
+                            </div>
+
+                            <div class="edu-2">
+                                <h3 class="date">(2018-2019)</h3>
+                            </div>
+
+
+
+                            <div class="edu-1">
+                                <h3>Android Devlopment</h3>
+                                certified in  android devlopment from MSME govt delhi
+                                
+                            </div>
+
+                            <div class="edu-2">
+                                <h3 class="date">(feb-july)</h3>
+                            </div>
+
+
+                            <div class="edu-1">
+                                <h3>Amazon Web Service</h3>
+                                certified in Amazon web service (AWS) from online portals
+                            </div>
+
+                            <div class="edu-2">
+                                <h3 class="date">(2019-2022)</h3>
+                            </div>
+
+
+
+                          </div> <!--edu ka div-->
+
+
+                         
+
+
+
+
+                        </div><!---education content ka end-->
+
+
+
+                    </div><!---rightmain content ka end-->
+
+                    <h3 class="right-title" id="projects">PROJECTS</h3>
+                    <a href="https://my.newtonschool.co/user/akkiindoria72" target="_blank"> 
+                        <p> please visit my dashboard of newton school for projects</p>
+                    </a>
+
+
+
+
+
+                </div> <!--right section ka end-->
+
+
+
+
+            </div> <!---main content ka end-->
+    
+</body>
+</html>
